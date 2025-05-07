@@ -18,9 +18,9 @@ Prepare Input:
 
 You can run the script in any Python environment or Jupyter notebook.
 
-The script will ask for an input type — either image or text.
+The script will ask for an input type, such as an image.
 
-If you choose image, the script will:
+If you choose an image, the script will:
 
 Perform background removal using the rembg library.
 
@@ -34,11 +34,11 @@ Save the model in .obj and .stl formats.
 
 After the script runs, check the outputs/ folder for the following:
 
-Point Cloud: outputs/text_point_cloud.ply
+Point Cloud: outputs/cat_point_cloud.ply
 
-OBJ Mesh: outputs/text_mesh.obj
+OBJ Mesh: outputs/cat_mesh.obj
 
-STL Mesh: outputs/text_mesh.stl
+STL Mesh: outputs/cat_mesh.stl
 
 # Libraries Used
 numpy: Used for numerical operations in the project.
